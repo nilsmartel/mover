@@ -39,3 +39,4 @@ there are some programming tasks left open
 - Refactoring
 - Use better Argument parsing + zsh completions
 - Ability to choose other other starting point than "."
+- Make available using `cargo install`
