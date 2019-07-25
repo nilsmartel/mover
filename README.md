@@ -32,4 +32,10 @@ the result might look like this
 ```
     
 
+there are some programming tasks left open
 
+## TODO
+- Proper Error Handling
+- Refactoring
+- Use better Argument parsing + zsh completions
+- Ability to choose other other starting point than "."
