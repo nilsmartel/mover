@@ -18,7 +18,9 @@ the result might look like this
 
 ```
 > ls 
-1.txt file 2.txt file 3.txt
+file 1.txt     
+file 2.txt 
+file 3.txt
 > mover file
 > tree
 .
