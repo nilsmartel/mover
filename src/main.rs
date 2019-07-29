@@ -1,7 +1,11 @@
 use std::fs::read_dir;
 
 fn main() {
-    let directory = std::env::args().nth(1).expect("Expect Pattern");
+    let directory = if let Some(dir) = std::env::args().nth(1) { dir } else {
+        eprintln!("Expected Argument");
+        std::process::exit(0)
+    }
+
     let l = directory.len();
 
     let files: Vec<std::fs::DirEntry> = read_dir(".")
